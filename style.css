@@ -1,0 +1,84 @@
+body, h1, p, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+a{
+    font-size: 25px;
+}
+.hero {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 14px;
+}
+.nav-left a, .nav-right a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.nav-right input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    margin-right: 10px;
+}
+.input{
+    background: none;
+    width: 215px;
+    background-color: rgb(49, 49, 49);
+    border: 2px rgb(49, 49, 49) solid;
+    border-radius: 3px;
+}
+.nav-right button {
+    background-color: rgb(84, 79, 79);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+::placeholder{
+    color: rgb(84, 79, 79);
+}
+
+.nav-right{
+    width: auto;
+    flex: auto;
+    text-align: center;
+}
+
+.sign{
+    position: absolute;
+    right: 20px;
+}
